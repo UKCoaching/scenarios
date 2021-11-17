@@ -1,0 +1,4 @@
+<svg width="347" height="7" viewBox="0 0 347 7" xmlns="http://www.w3.org/2000/svg">
+<g fill="none"><path class="line-dashed" d="M1 4.723c88.416 2.21 177.192-.738 265.556-.738 8.492 0 40.568-3.71 43.498-2.227 5.28 2.674 8.894-2.64 14.546 0 9.383 4.382 31.165 0 21.104 1" stroke="#2DB0B5" stroke-width="2" stroke-dasharray="10,4" opacity=".405">
+<animate dur="2s" values="#2DB0B5; #666666; #2DB0B5" keyTimes="0; 0.5; 1" attributeName="stroke" repeatCount="indefinite"/>
+</path></g></svg>
