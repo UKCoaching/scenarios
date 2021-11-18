@@ -1,0 +1,293 @@
+@charset "utf-8";
+/* CSS Document */
+
+.char {min-height:180px;}
+.small-char{min-height:120px;}
+
+.charAnna::before {background-image:url("images/characters/anna.png");
+	background-size: 85% 85%; 
+	background-repeat:no-repeat; 
+	background-position: 50% 0%;
+	content:"Anna";
+	display: inline-block;
+	float:left;
+	width: 180px; 
+	height: 180px; 
+	padding-top:165px; 
+	text-align:center; 
+	font-style:italic; 
+	font-size:0.8em; 
+	color:#666666;
+	margin-left:-15px;
+	margin-right:15px;
+}
+.charKerry::before {background-image:url("images/characters/kerry.png");
+	background-size: 85% 85%; 
+	background-repeat:no-repeat; 
+	background-position: 50% 0%;
+	content:"Kerry";
+	display: inline-block;
+float:left;
+	width: 180px; 
+	height: 180px; 
+	padding-top:165px; 
+	text-align:center; 
+	font-style:italic; 
+	font-size:0.8em; 
+	color:#666666;
+	margin-left:-15px;
+	margin-right:15px;
+}
+.charNour::before {background-image:url("images/characters/nour.png");
+	background-size: 85% 85%; 
+	background-repeat:no-repeat; 
+	background-position: 50% 0%;
+	content:"Nour";
+	display: inline-block;
+	float:left;
+	width: 180px; 
+	height: 180px; 
+	padding-top:165px; 
+	text-align:center; 
+	font-style:italic; 
+	font-size:0.8em; 
+	color:#666666;
+	margin-left:-15px;
+	margin-right:15px;
+}
+
+.charHelen::before {background-image:url("images/characters/helen.png");
+	background-size: 85% 85%; 
+	background-repeat:no-repeat; 
+	background-position: 50% 0%;
+	content:"Helen";
+	display: inline-block;
+	float:left;
+	width: 180px; 
+	height: 180px; 
+	padding-top:165px; 
+	text-align:center; 
+	font-style:italic; 
+	font-size:0.8em; 
+	color:#666666;
+	margin-left:-15px;
+	margin-right:15px;
+}
+
+.charGail::before {background-image:url("images/characters/gail.png");
+	background-size: 85% 85%; 
+	background-repeat:no-repeat; 
+	background-position: 50% 0%;
+	content:"Gail";
+	display: inline-block;
+	float:left;
+	width: 180px; 
+	height: 180px; 
+	padding-top:165px; 
+	text-align:center; 
+	font-style:italic; 
+	font-size:0.8em; 
+	color:#666666;
+	margin-left:-15px;
+	margin-right:15px;
+}
+
+.charMadelena::before {background-image:url("images/characters/madelena.png");
+	background-size: 85% 85%; 
+	background-repeat:no-repeat; 
+	background-position: 50% 0%;
+	content:"Madelena";
+	display: inline-block;
+	float:left;
+	width: 180px; 
+	height: 180px; 
+	padding-top:165px; 
+	text-align:center; 
+	font-style:italic; 
+	font-size:0.8em; 
+	color:#666666;
+	margin-left:-15px;
+	margin-right:15px;
+}
+
+.charHockey::before {background-image:url("images/characters/hockey.png");
+	background-size: 85% 85%; 
+	background-repeat:no-repeat; 
+	background-position: 50% 0%;
+	content:"";
+	display: inline-block;
+	float:left;
+	width: 180px; 
+	height: 180px; 
+	padding-top:165px; 
+	text-align:center; 
+	font-style:italic; 
+	font-size:0.8em; 
+	color:#666666;
+	margin-left:-15px;
+	margin-right:15px;
+}
+
+
+.charRashida::before {
+	background-image:url("images/characters/rashida.png");
+	background-size: 85% 85%; 
+	background-repeat:no-repeat; 
+	background-position: 50% 0%;
+	content:"Rashida";
+	display: inline-block;
+	float:left;
+	width: 180px; 
+	height: 180px; 
+	padding-top:165px; 
+	text-align:center; 
+	font-style:italic; 
+	font-size:0.8em; 
+	color:#666666;
+	margin-left:-15px;
+	margin-right:15px;
+}
+
+.charSuzy::before {background-image:url("images/characters/suzy.png");
+	background-size: 85% 85%; 
+	background-repeat:no-repeat; 
+	background-position: 50% 0%;
+	content:"Suzy";
+	display: inline-block;
+	float:left;
+	width: 180px; 
+	height: 180px; 
+	padding-top:165px; 
+	text-align:center; 
+	font-style:italic; 
+	font-size:0.8em; 
+	color:#666666;
+	margin-left:-15px;
+	margin-right:15px;
+}
+
+.charSuzyDad::before {background-image:url("images/characters/suzy-dad.png");
+	background-size: 85% 85%; 
+	background-repeat:no-repeat; 
+	background-position: 50% 0%;
+	content:"Suzy's Dad";
+	display: inline-block;
+	float:left;
+	width: 180px; 
+	height: 180px; 
+	padding-top:165px; 
+	text-align:center; 
+	font-style:italic; 
+	font-size:0.8em; 
+	color:#666666;
+	margin-left:-15px;
+	margin-right:15px;
+}
+.charTessa::before {background-image:url("images/characters/tessa.png");
+	background-size: 85% 85%; 
+	background-repeat:no-repeat; 
+	background-position: 50% 0%;
+	content:"Tessa";
+	display: inline-block;
+	float:left;
+	width: 180px; 
+	height: 180px; 
+	padding-top:165px; 
+	text-align:center; 
+	font-style:italic; 
+	font-size:0.8em; 
+	color:#666666;
+	margin-left:-15px;
+	margin-right:15px;
+}
+
+.charTessaMum::before {background-image:url("images/characters/tessa-mum.png");
+	background-size: 85% 85%; 
+	background-repeat:no-repeat; 
+	background-position: 50% 0%;
+	content:"Tessa's Mum";
+	display: inline-block;
+	float:left;
+	width: 180px; 
+	height: 180px; 
+	padding-top:165px; 
+	text-align:center; 
+	font-style:italic; 
+	font-size:0.8em; 
+	color:#666666;
+	margin-left:-15px;
+	margin-right:15px;
+}
+
+.charLianne::before {background-image:url("images/characters/lianne.png");
+	background-size: 85% 85%; 
+	background-repeat:no-repeat; 
+	background-position: 50% 0%;
+	content:"Lianne - Head teacher";
+	display: inline-block;
+	float:left;
+	width: 180px; 
+	height: 180px; 
+	padding-top:165px; 
+	text-align:center; 
+	font-style:italic; 
+	font-size:0.8em; 
+	color:#666666;
+	margin-left:-15px;
+	margin-right:15px;
+}
+
+.charKitbag::before {background-image:url("images/characters/kitbag.png");
+	background-size: 85% 85%; 
+	background-repeat:no-repeat; 
+	background-position: 50% 0%;
+	content:"";
+	display: inline-block;
+	float:left;
+	width: 180px; 
+	height: 180px; 
+	padding-top:165px; 
+	text-align:center; 
+	font-style:italic; 
+	font-size:0.8em; 
+	color:#666666;
+	margin-left:-15px;
+	margin-right:15px;
+}
+
+.charHallgate::before {background-image:url("images/characters/hallgate.png");
+	background-size: 85% 85%; 
+	background-repeat:no-repeat; 
+	background-position: 50% 0%;
+	content:"";
+	display: inline-block;
+	float:left;
+	width: 180px; 
+	height: 180px; 
+	padding-top:165px; 
+	text-align:center; 
+	font-style:italic; 
+	font-size:0.8em; 
+	color:#666666;
+	margin-left:-15px;
+	margin-right:15px;
+}
+
+.small-charXXX::before {content:'Jean';background-image: url("http://blog.coachwise.ltd.uk/assets/scenarios/S12026-have-a-go2/images/jean-tel.png"); 	
+	background-size: 85% 85%; 
+	background-repeat:no-repeat; 
+	background-position: 50% 0%;
+	content:"";
+	display: inline-block;
+	float:left;
+	width: 120px; 
+	height: 120px; 
+	padding-top:105px; 
+	text-align:center; 
+	font-style:italic; 
+	font-size:0.8em; 
+	color:#666666;
+	margin-left:-15px;
+	margin-right:15px;
+}
+
