@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Fonts
+=============*/
+
+@import url(https://fonts.googleapis.com/css?family=Prompt:900italic|Chivo:900italic,400|Dosis:400,200,300,500,600,800,700);
+@import url(https://fonts.googleapis.com/css?family=Hind+Siliguri:400,300,500,600,700);
+
+html {font-family:'Hind Siliguri'!important; font-weight:300!important; font-size:1em;background-color:#2DB0B5;}
+h1,h2,h3,h4,h5,h6 {font-family:'Hind Siliguri'; font-weight:900; margin-top:10px;margin-bottom:10px;color:#232323;}
+h1 {font-size:1.5ems;}
+h2 {font-size:1.4ems;}
+h3 {font-size:1.3ems;}
+h4 {font-size:1.2ems;}
+h5 {font-size:1.1ems;}
+h6 {font-size:1ems;}
+
+/* General Settings
+//==================*/
+.my-location {color:#fff; font-weight:bold; font-size:16px; margin-top:-60px; padding-bottom:60px;}
+.my-location {display:none;}
+tw-story {box-shadow:none;width:90%;}
+tw-passage {width:100%;}
+
+  /*Backgrounds
+  //===============*/
+tw-story {background-image:none;}
+
+tw-story, tw-passage {
+	border-top-left-radius: 120px 10px!important;
+	border-top-right-radius: 10px 120px!important;
+	border-bottom-right-radius: 120px 10px!important;
+	border-bottom-left-radius: 10px 120px!important;
+	}
+
+/* Links
+//==============*/
+tw-link {color:#DC1E23;font-weight:300;font-family:'Hind Siliguri';text-decoration: underline}
+dl a, dl tw-link {color:#1c6b6e;font-weight:300;font-family:'Hind Siliguri';text-decoration: none}
+dl dt{padding-top:15px;padding-bottom:15px;}
+dl dt:before {
+	content: counter(sp16Counter);
+	counter-increment: sp16Counter;
+	/*content: ">>";*/
+	background-color:#DC1E23/*#F09*/;
+	border-top-left-radius: 120px 10px;
+	border-top-right-radius: 10px 120px;
+	border-bottom-right-radius: 120px 10px;
+	border-bottom-left-radius: 10px 120px;
+	top:17px;
+}
+dl {counter-reset: sp16Counter;}
+/*dl dt:before {
+	content: counter(sp16Counter);
+	counter-increment: sp16Counter;
+	background-color:#DC1E23;
+	font-size:12px;
+	color:#ffffff;
+	text-align:center;
+	line-height:20px;
+	height:20px;
+	width:20px;
+	position:absolute;
+	top:5px;
+	left:5px;
+}*/
+
+/* Peer Advice
+//===================*/
+.peer-advice .btn {clear:both; margin:10px;}
+a.btn .fa, .peer-advice .btn .fa {color:#999999;}
+.peer-advice div {text-align:left;}
+
+/* Assistance
+//===================*/
+.assistance-btn{display:none;}
+.assistance-btn.collapsed::before, .assistance-btn.collapsed::after, .assistance-btn::before, .assistance-btn::after {color:#fff;}
+
+/* IOS Text bubbles
+//===================*/
+
+.commentArea {
+    font: 14px Arial;
+    padding: 0 10px;
+    margin-top: 20px;
+}
+
+.bubbledLeft,.bubbledRight {
+    margin-top: 30px;
+    padding: 5px 9px;
+    max-width: 50%;
+    clear: both;
+    position: relative;
+}
+
+.bubbledLeft{
+    float: left;
+    margin-right: auto;
+    -webkit-border-radius: 8px 8px 8px 0px;
+    -moz-border-radius: 8px 8px 8px 0px;
+    -o-border-radius: 8px 8px 8px 0px;
+    -ms-border-radius: 8px 8px 8px 0px;
+    border-radius: 8px 8px 8px 0px;
+    background-color: #65B045;
+    color: #ffffff;
+}
+
+.bubbledLeft:before {
+    border-bottom: 10px solid #65B045;
+    border-left: 9px solid rgba(0, 0, 0, 0);
+    position: absolute;
+    bottom: 0;
+    left: -8px;
+    content: "";
+}
+
+.bubbledRight{
+    float: right;
+    margin-left: auto;
+    text-align: right;
+    -webkit-border-radius: 8px 8px 0px 8px;
+    -moz-border-radius: 8px 8px 0px 8px;
+    -o-border-radius: 8px 8px 0px 8px;
+    -ms-border-radius: 8px 8px 0px 8px;
+    border-radius: 8px 8px 0px 8px;
+    background-color: #07D;
+    color: white;
+}
+
+.bubbledRight:before {
+    border-bottom: 9px solid #07D;
+    border-right: 9px solid rgba(0, 0, 0, 0);
+    position: absolute;
+    bottom: 0;
+    right: -8px;
+    content: "";
+}
+
+.commentArea, .bubbledRight, .bubbledLeft {margin-top:0px;}
+
+/*Extra Info
+//=================*/
+.extra-info {background-color:rgba(45,176,181,0.1); margin-top:15px;margin-bottom:15px;padding-top:30px;padding-bottom:30px;}
+
+/*Responsive
+//==========*/
+@media handheld, screen and (min-width:500px) { html {background-color:#2DB0B5;}}
+/*	tw-story::before {
+		content:'';
+		display:block;
+		text-align:right;
+		height:40px;
+		padding:15px;
+		background-image: url(http://blog.coachwise.ltd.uk/assets/courses/S001-pe-suite/images/bg-texture-top.png);
+		background-position: 25% 0%;
+		background-repeat: repeat-x;
+		background-size: 100%;
+	}
+	tw-story::after {
+		content:'';
+		display:block;
+		text-align:right;
+		height:40px;
+		padding:15px;
+		background-image: url(http://blog.coachwise.ltd.uk/assets/courses/S001-pe-suite/images/bg-texture-bottom.png);
+		background-position: 25% 100%;
+		background-repeat: repeat-x;
+		background-size: 100%;
+	}
+*/

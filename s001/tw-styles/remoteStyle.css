@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Imports
+//========*/
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css");
+@import url("characters.css");
+
+/*Fonts
+//========*/
+
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,100,300,900");
+@import url(https://fonts.googleapis.com/css?family=Wallpoet);
+@import url(https://fonts.googleapis.com/css?family=Homemade+Apple);
+
+
+/*Padding
+//===============*/
+
+del {background-color:#ff0066;color:#fff;padding:3px;}
+i.fa {padding-right:10px;}
+.spInfo {padding-bottom:20px;}
+p {margin:0;/*margin-bottom:-15px;*/}
+tw-passage {padding-top:30px!important;}
+
+/* Colours
+//==========*/
+.transparent {opacity:0;}
+
+/* General Settings
+//==================*/
+
+html {
+	/* This affects the entire page */
+	font-family:Raleway, sans serif;
+	font-weight:300;
+	font-size:1em;
+	background-color:#e6e6e6;
+	}
+tw-story {font-size:1em;line-height:1.2em;margin:70px auto;width:100%; max-width:1074px;}
+tw-icon {opacity:0.5; color:#333333;}
+tw-passage {
+	background-color:rgba(255,255,255,0.9);
+	padding:10px;
+	margin:10px;
+	border-radius:10px;
+	/*box-shadow:0px 0px 15px 0px #cccccc;*/
+	width:96%;
+	}
+/*tw-sidebar {display:none;}*/
+
+.tw-inline {display:inline-block:}
+
+.vertical-align {vertical-align:middle;}
+.storyStart {clear:both;display:block;width:100%;}
+.spStoryWrapper {width:100%;}
+.spStoryHeader {width:100%;background-color:#33C;}
+.spStoryScene {}
+.spStoryBody {}
+.spStoryOptions {}
+
+/* Assitance
+//================*/
+.assistance-btn {position:fixed;top:15px;left:15px;text-decoration:none;}
+.assistance-btn:before {font-family: FontAwesome;content: "\f057";padding-right:15px;font-size:30px;color:#666666;}
+.assistance-btn:after {content:"Close";padding-left:5px;font-size:18px;color:#666666;}
+.assistance-btn.collapsed:before {font-family: FontAwesome;content: "\f071";padding-right:15px; font-size:30px;color:#666666;}
+.assistance-btn.collapsed:after {content:"Help";padding-left:5px;font-size:18px;color:#666666;}
+.assistance-box {position:fixed; top:60px;left:0px;z-index:999; padding:30px;background-color:#f1f1f1;}
+
+
+/* Links
+//==============*/
+dl a, tw-link {color:#0053CE;font-weight:400;font-family:Raleway, sans serif;margin-top:20px;line-height:1.6em;text-decoration:none;}
+dl a:hover, tw-link:hover {color:#D71723;text-decoration:none;}
+dl dt {
+	background-color:rgba(255,255,255,0.6);
+	padding-left:35px;
+	padding-right:5px;
+	margin-bottom:5px;
+	padding-bottom:5px;
+	text-align:left;
+	font-weight:400;
+	}
+dl {counter-reset: sp16Counter;}
+dl dt:hover {box-shadow:5px 5px 20px 10px #cccccc;}
+dl dt:before {
+	content: counter(sp16Counter);
+	counter-increment: sp16Counter;
+	background-color:#DC1E23;
+	font-size:12px;
+	color:#ffffff;
+	text-align:center;
+	line-height:20px;
+	height:20px;
+	width:20px;
+	position:absolute;
+	top:5px;
+	left:5px;
+	}
+
+/*Icons
+//============*/
+.fa {display:inline-block;}
+.fa-ul li {line-height:1.7em;}
+.fsCorrect::before {font-family: FontAwesome;content: "\f00c";padding-right:15px;}
+.fsIncorrect::before {font-family: FontAwesome;content: "\f00d";padding-right:15px;}
+.disabled i {opacity:0.25;}
+/*#navbarOptions {display:none;}*/
+#fa-right {display:inline-block;padding-right:30px;}
+
+/*Blockquote
+//============*/
+blockquote {border:none!important;}
+/*blockquote *:first-child:before {font-family: FontAwesome;content:  "\f10d";padding-right:15px; color:#999999;}
+blockquote *:last-child:after {font-family: FontAwesome;content:  "\f10e"; padding-left:15px; color:#999999;}*/
+
+blockquote:before {font-family: FontAwesome;content:  "\f10d";padding-right:15px; color:#999999;}
+blockquote:after {font-family: FontAwesome;content:  "\f10e"; padding-left:15px; color:#999999;}
+
+
+/*Misc
+//========*/
+.alert-dashed {border:dashed; border-color:rgba(204,204,204,0.5);}
+.fsInfo {padding: 0px 10px;}
+
+/*Responsive
+//==========*/
+@media handheld, screen and (min-width : 500px) {
+
+  /*General settings
+  //===============*/
+  tw-story {width:90%;}
+
+  /*Backgrounds
+  //===============*/
+  tw-story {
+	  	background-image:url("images/bg.jpg");
+		background-size:cover;
+		background-position:center-bottom;
+		border-radius:10px;
+		box-shadow:0px 0px 15px 0px #cccccc;
+		}
+  tw-passage {
+		padding:30px;
+		margin:30px;
+		width:70%;
+		}
+}
